@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.carbono2050.carbono_app.SeleniumVisualTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 50.49 s -- in com.carbono2050.carbono_app.SeleniumVisualTest

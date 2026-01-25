@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.carbono2050.carbono_app.service.LoginLinksTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 47.35 s <<< FAILURE! -- in com.carbono2050.carbono_app.service.LoginLinksTest
+com.carbono2050.carbono_app.service.LoginLinksTest.probarLinksLoginYLuegoLogout -- Time elapsed: 34.61 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for url to contain "/dashboard". Current url: "http://localhost:51380/login" (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.96, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\Duoc\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51386}, goog:processID: 8340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51386/devtoo..., se:cdpVersion: 144.0.7559.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07516077ef541bcc88c807cdc30da50a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.carbono2050.carbono_app.service.BaseSeleniumTest.loginComoAdmin(BaseSeleniumTest.java:60)
+	at com.carbono2050.carbono_app.service.LoginLinksTest.probarLinksLoginYLuegoLogout(LoginLinksTests.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
