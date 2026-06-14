@@ -1,9 +1,4 @@
-# Carbono-App
-Claro. Si por "ZYP" te refieres al documento maestro de especificación del proyecto (el que luego usarás para construirlo con IA, Cursor, Windsurf, Copilot o desarrollo manual), te propongo una **versión inicial profesional (v1.0)** enfocada en escalabilidad.
-
----
-
-# 🌱 CARBONO APP
+#🌱 CARBONO APP
 
 ## Sistema Inteligente de Gestión y Monitoreo de Emisiones GEI
 
