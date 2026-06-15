@@ -514,4 +514,4 @@ backend/
 └── utils
 ```
 
-Esta estructura ya está preparada para evolucionar desde un proyecto académico a una plataforma semiprofesional con apariencia de producto SaaS real, algo que encajaría muy bien en tu portfolio junto con AbcaLink.
+Esta estructura ya está preparada para evolucionar desde un proyecto académico a una plataforma semiprofesional con apariencia de producto SaaS real
